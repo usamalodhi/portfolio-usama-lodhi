@@ -1,0 +1,141 @@
+import SkillsData from '../interfaces/skills.interfaces';
+import SkillCategory from '../enums/skills.enums';
+
+export const Skills: SkillsData[] = [
+  {
+    id: 1,
+    name: 'HTML5',
+    imgPath: require('../../public/assets/about/html5.png').default,
+    imgAlt: 'HTML5',
+    category: SkillCategory.WebLanguages,
+  },
+
+  // src={require('./somRelativePath/image.jpg').default}
+  {
+    id: 2,
+    name: 'CSS3',
+    imgPath: require('../../public/assets/about/css3.png').default,
+    imgAlt: 'CSS3',
+    category: SkillCategory.WebLanguages,
+  },
+  {
+    id: 3,
+    name: 'JavaScript',
+    imgPath: require('../../public/assets/about/javascript.png').default,
+    imgAlt: 'JavaScript',
+    category: SkillCategory.ProgrammingLanguages,
+  },
+  {
+    id: 4,
+    name: 'TypeScript',
+    imgPath: require('../../public/assets/about/typescript.png').default,
+    imgAlt: 'TypeScript',
+    category: SkillCategory.ProgrammingLanguages,
+  },
+  {
+    id: 5,
+    name: 'React',
+    imgPath: require('../../public/assets/about/react.png').default,
+    imgAlt: 'React',
+    category: SkillCategory.Frameworks,
+  },
+  {
+    id: 6,
+    name: 'Gatsby',
+    imgPath: require('../../public/assets/about/gatsby.png').default,
+    imgAlt: 'Gatsby',
+    category: SkillCategory.Frameworks,
+  },
+  {
+    id: 7,
+    name: 'Next',
+    imgPath: require('../../public/assets/about/nextjs.png').default,
+    imgAlt: 'Next',
+    category: SkillCategory.Frameworks,
+  },
+  {
+    id: 8,
+    name: 'Chakra UI',
+    imgPath: require('../../public/assets/about/chakraui.png').default,
+    imgAlt: 'Chakra UI',
+    category: SkillCategory.Libraries,
+  },
+  {
+    id: 9,
+    name: 'Material UI',
+    imgPath: require('../../public/assets/about/materialUI.png').default,
+    imgAlt: 'Material UI',
+    category: SkillCategory.Libraries,
+  },
+  {
+    id: 10,
+    name: 'Framer Motion',
+    imgPath: require('../../public/assets/about/framer.png').default,
+    imgAlt: 'Framer Motion',
+    category: SkillCategory.Libraries,
+  },
+  {
+    id: 11,
+    name: 'GSAP',
+    imgPath: require('../../public/assets/about/gsap.png').default,
+    imgAlt: 'GSAP',
+    category: SkillCategory.Libraries,
+  },
+
+  {
+    id: 12,
+    name: 'Netlify',
+    imgPath: require('../../public/assets/about/nodejs.png').default,
+    imgAlt: 'Netlify',
+    category: SkillCategory.DevOps,
+  },
+  {
+    id: 13,
+    name: 'Vercel',
+    imgPath: require('../../public/assets/about/nodejs.png').default,
+    imgAlt: 'Vercel',
+    category: SkillCategory.DevOps,
+  },
+  {
+    id: 14,
+    name: 'Figma',
+    imgPath: require('../../public/assets/about/figma.png').default,
+    imgAlt: 'Figma',
+    category: SkillCategory.Tools,
+  },
+  {
+    id: 15,
+    name: 'Netlify CMS',
+    imgPath: require('../../public/assets/about/nodejs.png').default,
+    imgAlt: 'Netlify CMS',
+    category: SkillCategory.Tools,
+  },
+  {
+    id: 16,
+    name: 'Conetentful',
+    imgPath: require('../../public/assets/about/nodejs.png').default,
+    imgAlt: 'Contentful',
+    category: SkillCategory.Tools,
+  },
+  {
+    id: 17,
+    name: 'Node JS',
+    imgPath: require('../../public/assets/about/nodejs.png').default,
+    imgAlt: 'Node JS',
+    category: SkillCategory.Backend,
+  },
+  {
+    id: 18,
+    name: 'PostgresSQL',
+    imgPath: require('../../public/assets/about/postgresql.png').default,
+    imgAlt: 'PostgresSQL',
+    category: SkillCategory.Backend,
+  },
+  {
+    id: 19,
+    name: 'Prisma',
+    imgPath: require('../../public/assets/about/prisma.png').default,
+    imgAlt: 'Prisma',
+    category: SkillCategory.Backend,
+  },
+];
