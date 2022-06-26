@@ -1,10 +1,13 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
+import { Flex } from '@chakra-ui/react';
+import { Header } from '../components/Header/Header';
+import { Footer } from '../components/Footer/Footer';
+import { Main } from '../components/Main/Main';
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <Flex>
       <Head>
         <meta property='og:title' content='Usama Lodhi | Front End Web Developer' />
         <meta property='og:description' content='React wizard, CSS Mysfit' />
@@ -12,17 +15,10 @@ const Home: NextPage = () => {
         <meta property='og:url' content='https://example.com' />
         <meta property='og:type' content='website' /> <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <main>
-        <div>
-          <h1>Usama Lodhi Developer Portfolio </h1>
-          <p>Write Text Here For The Main Body </p>
-        </div>
-      </main>
-      <footer>
-        <p>Footer goes here</p>
-      </footer>
-    </div>
+      <Header />
+      <Main />
+      <Footer />
+    </Flex>
   );
 };
 
