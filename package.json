@@ -12,7 +12,7 @@
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-rough-notation": "^1.0.2"
+    "react-slick": "^0.29.0"
   },
   "devDependencies": {
     "@chakra-ui/react": "^2.2.1",
@@ -22,6 +22,7 @@
     "@types/node": "18.0.0",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
+    "@types/react-slick": "^0.23.8",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
     "framer-motion": "^6.3.11",
