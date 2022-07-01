@@ -1,10 +1,14 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
+import AboutText from './AboutText';
+import Technologies from './AboutTech';
 
-export function About() {
+const About = () => {
   return (
-    <Box>
-      <Text as='h1'>About Section </Text>
-      <Text as='p'>Write Text Here For The About Section Section </Text>
-    </Box>
+    <Flex minH='100vh' layerStyle='scrollToBox' id='about'>
+      <AboutText />
+      <Technologies />
+    </Flex>
   );
-}
+};
+
+export default About;
