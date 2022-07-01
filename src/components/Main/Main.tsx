@@ -1,16 +1,16 @@
 import { Box } from '@chakra-ui/react';
-import { About } from '../About/About';
-import { Hero } from '../Hero/Hero';
-import { Projects } from '../Projects/Projects';
-import { Technologies } from '../Technologies/Technologies';
+import About from '../About/About';
+import Hero from '../Hero/Hero';
+import Projects from '../Projects/Projects';
 
-export function Main() {
+const Main = () => {
   return (
     <Box as='main'>
       <Hero />
-      <About />
       <Projects />
-      <Technologies />
+      <About />
     </Box>
   );
-}
+};
+
+export default Main;
