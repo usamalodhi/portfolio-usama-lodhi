@@ -1,13 +1,13 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { Flex } from '@chakra-ui/react';
-import { Header } from '../components/Header/Header';
-import { Footer } from '../components/Footer/Footer';
-import { Main } from '../components/Main/Main';
+import Header from '../components/Header/Header';
+import Main from '../components/Main/Main';
+import Footer from '../components/Footer/Footer';
 
 const Home: NextPage = () => {
   return (
-    <Flex>
+    <Flex direction='column'>
       <Head>
         <meta property='og:title' content='Usama Lodhi | Front End Web Developer' />
         <meta property='og:description' content='React wizard, CSS Mysfit' />
